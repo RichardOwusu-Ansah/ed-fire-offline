@@ -6,8 +6,12 @@ It computes global fire risk from 2001 to 2016 using climate data and vegetation
 
 ## Data
 - **Climate**: CRUJRA v3.5 (temperature and precipitation)
-- **Vegetation**: TRENDY ED v3.0 cVeg (carbon in vegetation)
+  Its a huge dataset on the cluster. Lei can get it for you if you ask him.
+  
+- **Aboveground Biomass (Fuel Proxy)**: TRENDY ED v3.0 cVeg (carbon in vegetation)
+    You can download the cveg data from here: https://mdosullivan.github.io/GCB/. You will need to go to the button of the page, look for trendyv13-gcb2024, then ED>S3, then donwload cveg.nc
 
+These can be download
 ## Methods
 1. Thornthwaite PET computed from monthly temperature
 2. ED dryness index (D_bar) computed from PET and precipitation
